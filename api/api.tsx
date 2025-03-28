@@ -7,7 +7,7 @@ import {
 } from '../utils/authStorage';
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000', // Use your actual dev server URL
+  baseURL: 'https://safeserve-backend-5d82e32024d4.herokuapp.com',
 });
 
 /**
